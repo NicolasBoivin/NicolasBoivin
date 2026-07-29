@@ -17,3 +17,4 @@ Cybersecurity Engineer / Sysadmin basé à Paris. Pentest, sécurité réseau, f
 - ⚙️ Automatisation PowerShell / Python / Bash
 - 📜 En cours de certification CISM
 # NicolasBoivin
+# NicolasBoivin
