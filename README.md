@@ -4,16 +4,17 @@
 
 ### About me
 
-Cybersecurity engineer and network & systems administrator based in **Paris**, working in enterprise IT security.
+Cybersecurity engineer and network & systems administrator based in **Marseille**, working in enterprise IT security.
 I spend my time between offensive testing, hardening networks, investigating incidents and automating everything I can.
-Currently preparing the **CISM** certification.
+
+🏅 **CISM** certified (ISACA) — score **734**
 
 ### What I work on
 
 | | |
 |---|---|
 | 🔐 **Offensive security** | Penetration testing & security audits |
-| 🌐 **Network security** | Firewalls, VLANs, proxies — Stormshield, Cisco, Huawei |
+| 🌐 **Network security** | Firewalls, VLANs, proxies — Fortinet, Palo Alto, Stormshield, Cisco |
 | 🕵️ **DFIR** | Digital forensics & incident response |
 | 📊 **Detection** | SIEM & log analysis |
 | ⚙️ **Automation** | IT automation with PowerShell, Python & Bash |
@@ -21,5 +22,5 @@ Currently preparing the **CISM** certification.
 ### Stack
 
 <p align="center">
-  <img src="./assets/stack.svg" width="100%" alt="PowerShell, Python, Bash · Kali Linux, Wireshark, Nmap, Stormshield · Cisco / Huawei, Docker, SQL Server, ADB">
+  <img src="./assets/stack.svg" width="100%" alt="PowerShell, Python, Bash · Fortinet, Palo Alto, Stormshield, Cisco · Kali Linux, Wireshark, Nmap · Huawei, Docker, SQL Server, ADB">
 </p>

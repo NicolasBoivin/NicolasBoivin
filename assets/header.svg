@@ -55,12 +55,12 @@
   </g>
 
   <g class="in l2 mono" font-size="14">
-    <rect x="64" y="286" width="141" height="32" rx="16" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.35"/>
-    <text x="134.5" y="307" text-anchor="middle" fill="#cbd5e1">Paris, France</text>
-    <rect x="217" y="286" width="217" height="32" rx="16" fill="#60a5fa" fill-opacity="0.08" stroke="#60a5fa" stroke-opacity="0.35"/>
-    <text x="325.5" y="307" text-anchor="middle" fill="#cbd5e1">Enterprise IT Security</text>
-    <rect x="446" y="286" width="166" height="32" rx="16" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.35"/>
-    <text x="529" y="307" text-anchor="middle" fill="#cbd5e1">CISM in progress</text>
+    <rect x="64" y="286" width="175" height="32" rx="16" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <text x="151.5" y="307" text-anchor="middle" fill="#cbd5e1">Marseille, France</text>
+    <rect x="251" y="286" width="217" height="32" rx="16" fill="#60a5fa" fill-opacity="0.08" stroke="#60a5fa" stroke-opacity="0.35"/>
+    <text x="359.5" y="307" text-anchor="middle" fill="#cbd5e1">Enterprise IT Security</text>
+    <rect x="480" y="286" width="150" height="32" rx="16" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.35"/>
+    <text x="555" y="307" text-anchor="middle" fill="#cbd5e1">CISM certified</text>
   </g>
 
   <!-- Right: terminal -->
@@ -79,7 +79,7 @@
     <text x="724" y="188" class="in l4" fill="#e2e8f0"><tspan fill="#34d399">$</tspan> cat focus.txt</text>
     <text x="724" y="216" class="in l5" fill="#22d3ee">pentest · netsec · dfir · siem</text>
     <text x="724" y="244" class="in l6" fill="#e2e8f0"><tspan fill="#34d399">$</tspan> cert --status</text>
-    <text x="724" y="272" class="in l7" fill="#a78bfa">CISM ▸ in progress</text>
+    <text x="724" y="272" class="in l7" fill="#a78bfa">CISM ▸ certified · score 734</text>
     <text x="724" y="300" fill="#34d399">$</text>
     <rect x="742" y="287" width="9" height="17" fill="#e2e8f0" class="cursor"/>
   </g>
