@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="456" viewBox="0 0 1200 456" role="img" aria-label="Focus areas: Offensive Security, Network Security, DFIR, Detection, Automation, Governance &amp; Risk (CISM certified)">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1100" cy="456" r="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94a3b8" fill-opacity="0.08"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="456" rx="20"/></clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .tile { fill: #0f172a; fill-opacity: 0.7; stroke: #1f2937; }
+      .title { font-size: 19px; font-weight: 600; fill: #f1f5f9; }
+      .desc { font-size: 15px; fill: #94a3b8; }
+      .ico { fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .in { animation: in .6s ease-out both; }
+      .d1 { animation-delay: .1s; } .d2 { animation-delay: .25s; } .d3 { animation-delay: .4s; }
+      .d4 { animation-delay: .55s; } .d5 { animation-delay: .7s; } .d6 { animation-delay: .85s; }
+      @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="456" fill="url(#bg)"/>
+    <rect width="1200" height="456" fill="url(#dots)"/>
+    <rect width="1200" height="456" fill="url(#glow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="455" rx="19.5" fill="none" stroke="#1f2937"/>
+
+  <text x="64" y="52" class="mono" font-size="15" fill="#e2e8f0"><tspan fill="#34d399">$</tspan> cat focus.md</text>
+
+  <!-- 1. Offensive Security -->
+  <g class="in d1 sans">
+    <rect x="64" y="84" width="340" height="150" rx="16" class="tile"/>
+    <rect x="88" y="84" width="56" height="2" fill="#22d3ee"/>
+    <rect x="88" y="108" width="44" height="44" rx="12" fill="#22d3ee" fill-opacity="0.12" stroke="#22d3ee" stroke-opacity="0.3"/>
+    <g transform="translate(98 118)" class="ico" stroke="#22d3ee">
+      <circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.5"/>
+      <path d="M12 1v4M12 19v4M1 12h4M19 12h4"/>
+    </g>
+    <text x="148" y="137" class="title">Offensive Security</text>
+    <text x="88" y="186" class="desc">Penetration testing &amp;</text>
+    <text x="88" y="210" class="desc">security audits</text>
+  </g>
+
+  <!-- 2. Network Security -->
+  <g class="in d2 sans">
+    <rect x="430" y="84" width="340" height="150" rx="16" class="tile"/>
+    <rect x="454" y="84" width="56" height="2" fill="#60a5fa"/>
+    <rect x="454" y="108" width="44" height="44" rx="12" fill="#60a5fa" fill-opacity="0.12" stroke="#60a5fa" stroke-opacity="0.3"/>
+    <g transform="translate(464 118)" class="ico" stroke="#60a5fa">
+      <path d="M12 2l8 3.5v5.5c0 5-3.4 8.8-8 11-4.6-2.2-8-6-8-11V5.5z"/><path d="M8.5 12l2.5 2.5 4.5-5"/>
+    </g>
+    <text x="514" y="137" class="title">Network Security</text>
+    <text x="454" y="186" class="desc">Firewalls, VLANs &amp; proxies</text>
+    <text x="454" y="210" class="desc">Fortinet · Palo Alto · Stormshield</text>
+  </g>
+
+  <!-- 3. DFIR -->
+  <g class="in d3 sans">
+    <rect x="796" y="84" width="340" height="150" rx="16" class="tile"/>
+    <rect x="820" y="84" width="56" height="2" fill="#a78bfa"/>
+    <rect x="820" y="108" width="44" height="44" rx="12" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.3"/>
+    <g transform="translate(830 118)" class="ico" stroke="#a78bfa">
+      <circle cx="10.5" cy="10.5" r="7"/><path d="M15.5 15.5L22 22"/>
+    </g>
+    <text x="880" y="137" class="title">DFIR</text>
+    <text x="820" y="186" class="desc">Digital forensics &amp;</text>
+    <text x="820" y="210" class="desc">incident response</text>
+  </g>
+
+  <!-- 4. Detection -->
+  <g class="in d4 sans">
+    <rect x="64" y="258" width="340" height="150" rx="16" class="tile"/>
+    <rect x="88" y="258" width="56" height="2" fill="#34d399"/>
+    <rect x="88" y="282" width="44" height="44" rx="12" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.3"/>
+    <g transform="translate(98 292)" class="ico" stroke="#34d399">
+      <path d="M2 12h4l3-8 6 16 3-8h4"/>
+    </g>
+    <text x="148" y="311" class="title">Detection</text>
+    <text x="88" y="360" class="desc">SIEM &amp; log analysis</text>
+    <text x="88" y="384" class="desc">to detect and investigate</text>
+  </g>
+
+  <!-- 5. Automation -->
+  <g class="in d5 sans">
+    <rect x="430" y="258" width="340" height="150" rx="16" class="tile"/>
+    <rect x="454" y="258" width="56" height="2" fill="#fbbf24"/>
+    <rect x="454" y="282" width="44" height="44" rx="12" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.3"/>
+    <g transform="translate(464 292)" class="ico" stroke="#fbbf24">
+      <path d="M4 7l5 5-5 5M12 18h8"/>
+    </g>
+    <text x="514" y="311" class="title">Automation</text>
+    <text x="454" y="360" class="desc">IT automation with</text>
+    <text x="454" y="384" class="desc">PowerShell, Python &amp; Bash</text>
+  </g>
+
+  <!-- 6. Governance -->
+  <g class="in d6 sans">
+    <rect x="796" y="258" width="340" height="150" rx="16" class="tile"/>
+    <rect x="820" y="258" width="56" height="2" fill="#f472b6"/>
+    <rect x="820" y="282" width="44" height="44" rx="12" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.3"/>
+    <g transform="translate(830 292)" class="ico" stroke="#f472b6">
+      <circle cx="12" cy="9" r="6"/><path d="M8.5 14L7 22l5-3 5 3-1.5-8"/>
+    </g>
+    <text x="880" y="311" class="title">Governance &amp; Risk</text>
+    <text x="820" y="360" class="desc">CISM certified (ISACA)</text>
+    <text x="820" y="384" class="desc">Exam score: <tspan fill="#f472b6" font-weight="600">734</tspan></text>
+  </g>
+</svg>
