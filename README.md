@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Nicolas Boivin — Cybersecurity Engineer · Network & Systems Administrator">
+  <img src="./assets/header-v2.svg" width="100%" alt="Nicolas Boivin — Cybersecurity Engineer · Network & Systems Administrator">
 </p>
 
 ### About me
@@ -22,5 +22,5 @@ I spend my time between offensive testing, hardening networks, investigating inc
 ### Stack
 
 <p align="center">
-  <img src="./assets/stack.svg" width="100%" alt="PowerShell, Python, Bash · Fortinet, Palo Alto, Stormshield, Cisco · Kali Linux, Wireshark, Nmap · Huawei, Docker, SQL Server, ADB">
+  <img src="./assets/stack-v2.svg" width="100%" alt="PowerShell, Python, Bash · Fortinet, Palo Alto, Stormshield, Cisco · Kali Linux, Wireshark, Nmap · Huawei, Docker, SQL Server, ADB">
 </p>
