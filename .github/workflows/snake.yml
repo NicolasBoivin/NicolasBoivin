@@ -1,12 +1,11 @@
 name: Generate contribution snake
 
 on:
-  schedule:
-    - cron: "0 3 * * *" # every day at 03:00 UTC
+  # Manual only for now: GitHub Actions is blocked on this account (billing lock).
+  # Once GitHub Support lifts it, restore the daily schedule:
+  # schedule:
+  #   - cron: "0 3 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: [".github/workflows/snake.yml"]
 
 permissions:
   contents: write
