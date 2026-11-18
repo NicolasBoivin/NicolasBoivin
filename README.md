@@ -1,18 +1,25 @@
-<!-- Profile README pour NicolasBOIVIN -->
 <p align="center">
-  <img src="./assets/profile_banner.svg" alt="Banner" width="820">
+  <img src="./assets/header.svg" width="100%" alt="Nicolas Boivin — Cybersecurity Engineer · Network & Systems Administrator">
 </p>
 
+### About me
+
+Cybersecurity engineer and network & systems administrator based in **Paris**, working in enterprise IT security.
+I spend my time between offensive testing, hardening networks, investigating incidents and automating everything I can.
+Currently preparing the **CISM** certification.
+
+### What I work on
+
+| | |
+|---|---|
+| 🔐 **Offensive security** | Penetration testing & security audits |
+| 🌐 **Network security** | Firewalls, VLANs, proxies — Stormshield, Cisco, Huawei |
+| 🕵️ **DFIR** | Digital forensics & incident response |
+| 📊 **Detection** | SIEM & log analysis |
+| ⚙️ **Automation** | IT automation with PowerShell, Python & Bash |
+
+### Stack
+
 <p align="center">
-  <img src="./assets/activity_feed.svg" alt="Activity" width="820">
+  <img src="./assets/stack.svg" width="100%" alt="PowerShell, Python, Bash · Kali Linux, Wireshark, Nmap, Stormshield · Cisco / Huawei, Docker, SQL Server, ADB">
 </p>
-
-## Salut, je suis Nicolas 👋
-
-Cybersecurity Engineer / Sysadmin basé à Paris. Pentest, sécurité réseau, forensics, SIEM et automatisation IT.
-
-- 🔐 Pentest & audit de sécurité
-- 🌐 Réseau : Firewalls, VLANs, Proxies (Stormshield, Cisco, Huawei)
-- 🕵️ Forensics & réponse à incident
-- ⚙️ Automatisation PowerShell / Python / Bash
-- 📜 En cours de certification CISM

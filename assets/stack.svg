@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Tech stack: PowerShell, Python, Bash, Kali Linux, Wireshark, Nmap, Stormshield, Cisco, Huawei, Docker, SQL Server, ADB">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94a3b8" fill-opacity="0.08"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="260" rx="20"/></clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .label { font-size: 13px; letter-spacing: 2px; fill: #64748b; }
+      .chip text { font-size: 15px; fill: #e2e8f0; }
+      .in { animation: in .6s ease-out both; }
+      .r1 { animation-delay: .1s; } .r2 { animation-delay: .35s; } .r3 { animation-delay: .6s; }
+      @keyframes in { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="260" fill="url(#bg)"/>
+    <rect width="1200" height="260" fill="url(#dots)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="259" rx="19.5" fill="none" stroke="#1f2937"/>
+
+  <text x="64" y="52" class="mono" font-size="15" fill="#e2e8f0"><tspan fill="#34d399">$</tspan> ls ~/stack</text>
+
+  <!-- Languages -->
+  <g class="in r1">
+    <text x="64" y="109" class="mono label">LANGUAGES</text>
+    <g class="chip sans">
+      <rect x="260" y="86" width="126" height="36" rx="18" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.4"/>
+      <text x="323" y="109" text-anchor="middle">PowerShell</text>
+      <rect x="398" y="86" width="92" height="36" rx="18" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.4"/>
+      <text x="444" y="109" text-anchor="middle">Python</text>
+      <rect x="502" y="86" width="75" height="36" rx="18" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.4"/>
+      <text x="539.5" y="109" text-anchor="middle">Bash</text>
+    </g>
+  </g>
+
+  <!-- Security -->
+  <g class="in r2">
+    <text x="64" y="165" class="mono label">SECURITY</text>
+    <g class="chip sans">
+      <rect x="260" y="142" width="126" height="36" rx="18" fill="#34d399" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="323" y="165" text-anchor="middle">Kali Linux</text>
+      <rect x="398" y="142" width="117" height="36" rx="18" fill="#34d399" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="456.5" y="165" text-anchor="middle">Wireshark</text>
+      <rect x="527" y="142" width="75" height="36" rx="18" fill="#34d399" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="564.5" y="165" text-anchor="middle">Nmap</text>
+      <rect x="614" y="142" width="135" height="36" rx="18" fill="#34d399" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="681.5" y="165" text-anchor="middle">Stormshield</text>
+    </g>
+  </g>
+
+  <!-- Infrastructure -->
+  <g class="in r3">
+    <text x="64" y="221" class="mono label">INFRASTRUCTURE</text>
+    <g class="chip sans">
+      <rect x="260" y="198" width="160" height="36" rx="18" fill="#60a5fa" fill-opacity="0.08" stroke="#60a5fa" stroke-opacity="0.4"/>
+      <text x="340" y="221" text-anchor="middle">Cisco / Huawei</text>
+      <rect x="432" y="198" width="92" height="36" rx="18" fill="#60a5fa" fill-opacity="0.08" stroke="#60a5fa" stroke-opacity="0.4"/>
+      <text x="478" y="221" text-anchor="middle">Docker</text>
+      <rect x="536" y="198" width="126" height="36" rx="18" fill="#60a5fa" fill-opacity="0.08" stroke="#60a5fa" stroke-opacity="0.4"/>
+      <text x="599" y="221" text-anchor="middle">SQL Server</text>
+      <rect x="674" y="198" width="66" height="36" rx="18" fill="#60a5fa" fill-opacity="0.08" stroke="#60a5fa" stroke-opacity="0.4"/>
+      <text x="707" y="221" text-anchor="middle">ADB</text>
+    </g>
+  </g>
+</svg>
